@@ -1,0 +1,149 @@
+{
+"places":[
+
+{"name":"Boston Commons",
+        "address":[{"streetNo":"139 Tremont Street", "area":"Downtown Boston", "areaCode":"02111", "city":"Boston", "state":"MA", "country":"USA"}],
+        "aboutPlace":[{"history":"Puritan settlers arrived in 1630 and grazed their cows on Boston Common, a practice that continued for the next 200 years.Puritans militias trained on the Common, and publically executioned heretics, witches, Quakers, criminals, pirates, and other undesirables here throughout the 17th, 18th, and early 19th centuries.When the first British troops arrived in 1768 to quell the troublesome Colonists - the beginning of the British Occupation of the city - they set up camps across the Commons. During the evening of April 18, 1775, about 700 Redcoats assembled in Boston Common to begin a mission to seize a hidden cache of weapons hidden by the Patriotsin Concord.  Their departure from the Common triggered Paul Revere's famous ride across the countrysite - and the next day, the American Revolution officially began.",
+                "info":"Boston Common's 44  acres of lush green space form the heart of the city. This is the place where you can enjoy some of the city's most popular activities and events.Walk across Boston Common on a warm day and you'll see 21st century Boston at its best.\n\nChildren splash in the spray pool at Frog Pond, the stately hotels near Boston Common gaze out toward green grass and tall trees where students from nearby Emerson College and Suffolk Univerity sometimes study, and skyscrapers gleam in the distance.Dogs trot by with their owners on a leash, and excited shouts from neighborhood kids aspiring to be future Red Sox drift over from the Common's ball field.On winter days, skaters glide across Frog Pond, Boston Common's summer oasis now magically transformed into an ice skating rink.Up on Beacon Hill to the north, the huge golden dome of the Massachusetts State House gleams against the blue sky.  To the west, the glass sides of the Hancock building glisten in the distance.Walking tours of Boston visitors can be seen in all directions.\n\nBoston Common, along with the adjacent Public Garden, forms the heart of the older neighborhoods of the city collectively known as Boston Proper.It's easy to imagine that some earlier city planner with great foresight laid out this lovely expanse of green for future generations to enjoy.But nothing could be farther from the truth.",
+                "trivia":"1.Boston Common's 44 acres of lush green space form the heart of the city.\n2.Literary figures Oliver Wendell Holmes, Walt Whitman, and Ralph Waldo Emerson are known to have walked through the Common. No doubt Louisa May Alcott did as well during her sojourns on adjacent Beacon Hill.\n3.Famous speakers and performers in the 20th century include Dr. Martin Luther King, Olivia Newton-John, and Willie Nelson. Pope John Paul II celebrated a public Mass.\n4.President Barack Obama spoke here at a rally in October 2007 as part of his Presidential Primary campaign."}],
+        "timings":[{"open":"All day, every day", "close":"Never"}],
+        "fare":"Free",
+        "howToReach":["Only 5 minutes walk from Red and Green Lines at Park Street T station."],
+        "attractionType":["Beginning of the Freedom Trail,Garden of Flags on Memorial Day, Swan boats and Ice Skating on Frog Pond , Shakespeare on the Common"],
+        "idealFor":["Family", "Couples"],
+        "reviews":[{"reviewerName":"Tom Lee", "reviewHeading":"Relaxing place", "reviewBody":"Boston Common is one the places you have to visit. You can do a nice walk or just sti down and relax, listening the birds and seeing the squirrels. Nature atmosphere is perfect to take some awesome pictures."},
+        {"reviewerName":"Emily Green", "reviewHeading":"Beautiful Boston Commons", "reviewBody":"My son and I stayed at a hotel near Boston Commons. Boston Commons was central to everything in Boston. There is a stop for the T, our Trolley tour also stopped there as well. It is a beautiful green park in Boston. We went at Thanksgiving and the Frog Pond had been turned into an ice rink."},
+        {"reviewerName":"Jack123", "reviewHeading":"Nice, historic park", "reviewBody":"What a lovely green space inc the heart of the city! It has long history and offers shade by old deciduous trees. In the fall the leaves turn color and offer a wonderful backdrop for pics. Adjacent is an old graveyard and beautifully surrounded by old buildings. Nice place for a picnic or relaxation."},
+        {"reviewerName":"Jayesh_D", " reviewHeading":"Less of common , more of park", "reviewBody":"Boston common perhaps might have once just been a public open space but these days it's more of an informal park with tree lined paths and pleasant vistas. There are lots of benches to sit on and rest your weary feet if you are walking around the city as a tourist or somewhere to eat your lunch if you are a local."}],
+        "ratings": [ {"siteName":"tripAdvisor", "rating":4.7}
+        , {"siteName":"thousandTraveller", "rating":4.3},
+        { "siteName":"siteRating", "rating":4.5},
+        {"siteName":"nativesSay", "rating":4},
+        {"siteName":"avg", "rating":0}],
+        "images":["BC2.jpg"]
+        
+                },
+                {"name":"Faneuil Hall Marketplace (Quincy Market)",
+                        "address":[{"streetNo":"4 South Market Building", "area":"Downtown Boston","areaCode":"02109", "city":"Boston", "state":"MA", "country":"USA"}],
+                        "aboutPlace":[{"history":"Faneuil Marketplace consists of four historic buildings dating back to the 1800s, including Quincy Market and Freedom Trail site, Faneuil Hall where the Boston Tea Party rebellion against British Taxation began.An appealing mix of local shops, international brands, street performers, top restaurants, pubs, and food stalls spill out onto the cobblestone plaza, a historic market area where merchants and shoppers have come together for almost four centuries.",
+                                "info":"Most stores at Faneuil Hall Marketplace are in the North Market and South Market buildings.  Faneuil Hall does offer some shopping on the ground floor, but the rest of the building is a historic site.Quincy Market contains a terrific food hall - more about that in a moment.The North and South Market buildings include an interesting mix of up-scale favorites found in many shopping malls - look for Ann Taylor, Urban Outfitters, Uniglo, Coach, Victoria's Secret, Boxers to Go, Nine West, and Crabtree & Evelyn.\n\nThe main Quincy Market building continues to be a source of food for Bostonians, though it has changed from grocery to food-stall, fast-food, and restaurants. It is a popular and busy lunchtime spot for downtown workers. In the center, surrounding the dome, is a two-story seating area.\n\nFurther street vending space is available against the outside walls of the building, especially on the south side, under a glass enclosure. Most stalls in this space sell trinkets, gifts, and other curiosities. A few restaurants also occupy fully enclosed spaces at the ends of this enclosure",
+                                "trivia":"Faneuil Hall Marketplace has some of the best entertainment in Boston. 2.Today, there are 49 shops, 18 restaurants and pubs, 35 Colonnade eateries and 44 pushcarts in Faneuil Hall Marketplace."}],
+                        "timings":[{"open":"Monday to Saturday:10AM to 9PM", "close":"Sunday"}],
+                        "fare":"NA",
+                        "howToReach":["Blue Line to Aquarium/Faneuil Hall", "Green Line Haymarket, North Station, Park Street, or Government Center ", "Orange Line to State Street or Haymarket", "Red Line to Park Street", " Commuter Rail to North Station or South Station"],
+                        "attractionType":["Shopping", "Food", "Street Performances", "Music"],
+                        "idealFor":["Architects", "Tourits"],
+                        "reviews":[{"reviewerName":"Greg45", " reviewHeading":"A cool place", "reviewBody":"Great food and shopping options, not to mention the history and scenery nearby"},
+                        {"reviewerName":"Jimmy@P", "reviewHeading":"A place for foodies!!", "reviewBody":"I loved the variety: anything from ice cream to bbq to pizza to ethnic."},
+                        {"reviewerName":"Gabby_s", "reviewHeading":"Shooping unlimilted!!", "reviewBody":"Will find everything you need!!"},
+                        {"reviewerName":"Asha_kale", " reviewHeading":"A real art place!!", "reviewBody":"Great shows!!Cloths quality questionable?"}],
+                        "ratings":
+                [{"siteName":"tripAdvisor", "rating":4}
+                , {"siteName":"thousandTraveller", "rating":4.2},
+                { "siteName":"siteRating", "rating":3.5},
+                {"siteName":"nativesSay", "rating":3.8},
+                {"siteName":"avg", "rating":0}],
+            "images":["Quincymarket.jpeg"]
+                },
+                
+                
+                {"name":"Boston Children Museum",
+                        "address":[{"streetNo":"300 Congress Street","area":"Downtown Boston", "areaCode":"02210", "city":"Boston", "state":"MA", "country":"USA"}],
+                        "aboutPlace":[
+                            
+                            {
+                                "history":
+                                        "The idea for a children’s museum in Boston developed in 1909 when several local science teachers founded the Science Teacher’s Bureau.The Women’s Education Association also helped the Science Teacher’s Bureau with the planning for the children’s museum in Boston. After four years of planning, The Children’s Museum officially opened on August 1, 1913, at the Pinebank Mansion located along Jamaica Pond in Olmsted Park in Boston’s Jamaica Plain neighborhood.In 1979 Boston Children’s Museum moved into half of an empty wool warehouse on the Fort Point Channel in order to gain more space and become more accessible to people in Boston.In 1986, Kenneth Brecher became the director of the museum. During his term, Kids Bridge, a groundbreaking exhibit on cultural diversity and racism, opened at the museum. In April 2006, the museum broke ground on a $47-million expansion and renovation project designed by Cambridge Seven Associates and closed for four months at the beginning of 2007 to complete the project. The project added a 23,000-square-foot (2,100 m2), glass-walled enclosure to the front of the museum, a new theater, new exhibits, and a newly landscaped park.",
+                                "info":"With 20+ permanent exhibits, there's a lot to love in this museum.\n\n 1. Huge maze ('New Balance Climb') - This series of connecting platforms, tubes, chutes, and tunnels starts on the first floor and soars 3 stories high.  Children can climb through this for hours if you let them.\n 2.Johnny's Workbench - A real workbench with real tools and materials where children can actually build something . . . perhaps with just a little help from their parents.\n 3.Boston Black - Designed to celebrate Boston's diverse African heritage, this interactive exhibit lets kids decorate a float for the Afro Caribbean Carnival celebration, discover different hairstyles at the African Queen Beauty Salon, and dance to a Cape Verdean beat at a cafe.\n4.Japanese House - The City of Kyoto presented this 100-year old silk merchant's house to the Boston Children's Museum in 1979.Japanese carpenters reconstructed it in Boston, and it is fully and authentically furnished.  Japanese artisans recently repaired the 26 tatami mats.\n5.Science Playground - Aspiring scientists can learn about physics and nature.  Younger kids gravitate to the 'bubbles' area but older ones zoom over to the golf ball area where they learn about momentum, velocity, and force as they send golf balls whizzing along (and off) a maze of tracks. Kids have lots of fun here . . . you may wish you had a helmet as the balls go flying off the tracks.\n6.PlaySpace - Designed for infants and toddlers, PlaySpace provides safe climbing and playing opportunities for those who are still learning self-navigation.  Infants have their own enclosed crawling space.There's even a waterbed for rocking and balancing.",
+                                
+                                "trivia":"Faneuil Hall Marketplace has some of the best entertainment in Boston. 2.Today, there are 49 shops, 18 restaurants and pubs, 35 Colonnade eateries and 44 pushcarts in Faneuil Hall Marketplace."
+                                }
+                            ],
+                        "timings":[{"open":"Monday to Sunday:10AM to 5PM", "close":"None"}],
+                        "fare":"  For adults and kids 1-15-$16 \nFor seniors 65+ and infants under 12 months-Free \nAdmission on Friday nights from 5pm -9pm- $1",
+                        "howToReach":["Red Line/South Station; short walk (5-8 minutes, depending on how fast your children will walk) to the museum"],
+                        "attractionType":["Museum", "spend-a-day place"],
+                        "idealFor":["Architects", "Tourits", "Children", "Family"],
+                        "reviews":[{"reviewerName":"Gary", " reviewHeading":"A ", "reviewBody":"Great food and shopping options, not to mention the history and scenery nearby"},
+                        {"reviewerName":"Jimmy@P", "reviewHeading":"A place for foodies!!", "reviewBody":"I loved the variety: anything from ice cream to bbq to pizza to ethnic."},
+                        {"reviewerName":"Gabby_s", "reviewHeading":"Shooping unlimilted!!", "reviewBody":"Will find everything you need!!"},
+                        {"reviewerName":"Asha_kale", " reviewHeading":"A real art place!!", "reviewBody":"Great shows!!Cloths quality questionable?"}],
+                        "ratings":  [{"siteName":"tripAdvisor", "rating":3.5}
+                        , { "siteName":"thousandTraveller", "rating":4.0},
+                        { "siteName":"siteRating", "rating":3.7},
+                        {"siteName":"nativesSay", "rating":3.9},
+                        {"siteName":"avg", "rating":0}],
+                    "images":["BC1.jpg"]
+                },
+                
+        {
+        "name":"Museum of Fine Arts",
+                "address": [{"streetNo":"465 Huntington Ave", "area":"Greater Boston", "areaCode":"02115", "city":"Boston", "state":"MA", "country":"USA"}],
+                "aboutPlace":[{"history":"The Museum of Fine Arts was founded in 1870 and opened in 1876, with most of its initial collection taken from the Boston Athenæum Art Gallery.In the mid-2000s, the museum launched a major effort to renovate and expand its facilities.In 2015, the museum renovated its Japanese garden, Tenshin-en. The garden, which originally opened in 1988, was designed by Japanese professor Kinsaku Nakane. ", 
+                 "info":"Founded in 1870, the museum moved to its current location in 1909. With hundreds of galleries filled with treasures from the ancient world to contemporary art, Boston's Museum of Fine Arts can easily keep you enthralled for an entire day.End your visit with a few peaceful moments of relaxation in the Japanese Contemplative Garden located in a secluded spot outside the museum.", 
+                 "trivia":"It was built almost entirely of red brick and terracotta with a small amount of stone in its base. The brick was produced by the Peerless Brick Company of Philadelphia and the terracotta was imported from England"}],
+                "timings":[{"open":"10 AM - 5 PM", "close":"importaant days"}],
+                "fare":"25(Charges might vary)",
+                "howToReach":["Green Line E train to the Museum of Fine Arts stop", "the Orange Line train to the Ruggles stop."],
+                "attractionType":["Museum", "History"],
+                "idealFor":["Children", "Tourits", "Couples"],
+                "reviews":[	  ],
+                "ratings": [{"siteName":"tripAdvisor", "rating":3.4}
+                , { "siteName":"thousandTraveller", "rating":4.6},
+                { "siteName":"siteRating", "rating":4},
+                {"siteName":"nativesSay", "rating":2.5},
+                {"siteName":"avg", "rating":0}
+                ],
+                "images":["BC3.jpg"]
+
+      },
+        {
+        "name":"Freedom Trail",
+                "address": [{"streetNo":"", "area":"Freedome trail", "areaCode":"", "city":"Boston", "state":"MA", "country":"USA"}],
+                "aboutPlace":[{"history":"Boston has more sites related to the American Revolution and America's fight for independence than any other city.The Freedom Trail was originally conceived by local journalist William Schofield, who in 1951 suggested building a pedestrian trail to link together important local landmarks.Boston mayor John Hynes decided to put Schofield's idea into action.",
+                 "info":"the Freedom Trail, a 2.5-mile, red-lined route that leads you to 16 historically significant sites — each one an authentic treasure. Explore museums and meetinghouses, churches, and burying grounds. Learn about the brave people who shaped our nation. Discover the rich history of the American Revolution, as it began in Boston, where every step tells a story. ", 
+                 "trivia":"All of these sites are the real thing - not re-creations or reproductions"}],
+                "timings":[{"open":"All times (timings of included sites might differ)", "close":"NA"}],
+                "fare":"NA(Does not include fare for indiviual sites)",
+                "howToReach":["The Green or Red Line will take you to Park Street Station, which is the closest station to the start of the Freedom Trail in Boston Commons.", "The State Street Station on the Blue and Orange lines is literally on the Freedom Trail! It is 5 minutes from the start of the trail."],
+                "attractionType":["Walk", "History"],
+                "idealFor":["Historians", "Tourits"],
+                "reviews":[	  ],
+                "ratings": [{"siteName":"tripAdvisor", "rating":4.6}
+                , {"siteName":"thousandTraveller", "rating":4},
+                { "siteName":"siteRating", "rating":3.5},
+                {"siteName":"nativesSay", "rating":5},
+                {"siteName":"avg", "rating":0}
+                ],
+                "images":["FT.jpg"]
+
+        },
+        
+        {"name":"New England Aquarium",
+"address":[{"streetNo":"1 Central Wharf","areaCode":"02210","area":"Downtown Boston", "city":"Boston","state":"MA","country":"USA"}],
+"aboutPlace":[{"history":"Planning for the aquarium began in 1962, with the principal designer being Peter Chermayeff of Cambridge Seven Associates. The building was opened to the public in 1969.In 1974, a multi-storied barge, Discovery, was moored next to the Aquarium. It served as a floating mammal pavilion for the aquarium as the lack of land limited the aquarium's ability for expansion. This 1,000-seat observer stadium overlooked a 116,000-US-gallon (440,000 l; 97,000 imp gal) pool. It hosted dolphins until they were transferred in the mid-1990s, and sea lions, until the ship's decommissioning. Discovery was officially retired in the mid-2000s due to its old age and high cost of maintenance.In 2013, the Giant Ocean Tank was given a major facelift, with the addition of a replica of a Caribbean coral reef.",
+"info":"Most stores at Faneuil Hall Marketplace are in the North Market and South Market buildings.  Faneuil Hall does offer some shopping on the ground floor, but the rest of the building is a historic site.Quincy Market contains a terrific food hall - more about that in a moment.The North and South Market buildings include an interesting mix of up-scale favorites found in many shopping malls - look for Ann Taylor, Urban Outfitters, Uniglo, Coach, Victoria's Secret, Boxers to Go, Nine West, and Crabtree & Evelyn. ", 
+"trivia":"Faneuil Hall Marketplace has some of the best entertainment in Boston. 2.Today, there are 49 shops, 18 restaurants and pubs, 35 Colonnade eateries and 44 pushcarts in Faneuil Hall Marketplace."}],
+               "timings":[{"open":"Monday to Saturday:10AM to 9PM", "close":"Sunday"}],
+               "fare":"NA",
+               "howToReach":["Take the Red Line to South Station and transfer to the Silver Line.  Take the Silver Line to the Silver Line Way stop (right after you come above ground); going back to South Station, take any inbound Silver Line bus - they all go back to South Station.You can also walk from South Station - distance is only about a mile."],
+               "attractionType":["Green sea turtle.."," Baby Cuttlefish Hatch","Great White Shark 3D","The stunning 4-story high Giant Ocean Tank"],
+               "idealFor":["All agegroups"],
+               "reviews":[{"reviewerName":"Jack"," reviewHeading":"Best aquaarium!!","reviewBody":"One of the best aquariums anywhere! The spiral up and down is amazing because you can see all of the water-life. There are educational spots as well. It's a fun place for any age."},
+  {"reviewerName":"Lily_e839", "reviewHeading":"Love this place!!","reviewBody":"Love this place since I was a kid.I now get to take my son here - we try to come at least once a year. .."},
+  {"reviewerName":"", "reviewHeading":"Children love this place!!","reviewBody":"Our toddler loves the play area for 0-3 year olds."},
+  {"reviewerName":"vasquesz_maria"," reviewHeading":"An excellent place to take your kids!!","reviewBody":"I've been many children's museums and this is still my favorite. It's big, nice, full of messy hands on stuff and some good variety of cultural exhibits. The cafeteria is way too disorganized, but the food is good. All the staff is great too. Parking is best at the garage up the street, then you get to walk over the bridge. "}],
+               "ratings": [{"siteName":"tripAdvisor", "rating":4.5},
+                   { "siteName":"thousandTraveller", "rating" :4.4},
+                   { "siteName":"siteRating", "rating":4.5}, 
+                   {"siteName":"nativesSay", "rating":4.2},
+                   {"siteName":"avg","rating":0}],
+               "images":["AQ.jpg"]
+			   
+			   }
+
+        ]
+        }
+
+
+

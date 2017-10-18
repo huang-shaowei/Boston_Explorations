@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Comments</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="stylingScript.js" type="text/javascript"></script>
+    <link href="mainpage.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        div#title {
+            padding-top: 50px;
+        }
+        
+        .btn:hover,
+        .btn:focus {
+            border: 1px solid #333;
+            background-color: #fff;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-static-top" role="navigation">
+        <div class="container-fluid ">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand">
+                    <img style="position: relative" src="logo.jpg" alt="Logo" id="logo" /></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a> </li>
+                    <li><a href="userprofile.html">User Profile</a></li>
+                    <li><a id="viewComments">Review Comments</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="title" class="container text-center">
+        <h3>Write Your Comments about this Place</h3>
+        <form>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2">Place Name:</label>
+                <div class="col-sm-10">
+                     <select class="form-control" id="name">
+                        <option value="">Places
+                        <option value="Boston Commons">Boston Commons
+                        <option value="Quincy Market">Faneuil Hall Marketplace (Quincy Market)
+                        <option value="Boston Children Museum">Boston Children Museum
+                        <option value="Freedom Trail">Freedom Trail
+                        <option value="Museum of Fine Arts"> Museum of Fine Arts
+                        <option value="New England Aquarium">New England Aquarium
+                    </select>
+                </div>
+            </div>
+            <br>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2">Comments:</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" rows="5" id="comment" placeholder="Wirte Your Comments Here!"></textarea>
+                </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <div class="panel panel-success col-sm-12">
+                    <div class="panel-heading">Rating for this Place!</div>
+                    <div class="panel-body" id="panel">
+                        <input type="range" id="points" min="0" max="5">
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button id="save" type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+
+        </form>
+        
+    </div>
+    <footer>
+        <a href="#myPage" data-toggle="tooltip" title="TO TOP">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <br>
+        <br>
+        <p>Copyrights @Boston Explorations</p>
+    </footer>
+<script>
+    $(document).ready(function () {
+
+                function getCookie(cname) {
+                    var name = cname + "=";
+                    var ca = document.cookie.split(';');
+                    for (var i = 0; i < ca.length; i++) {
+                        var c = ca[i];
+                        while (c.charAt(0) == ' ') {
+                            c = c.substring(1);
+                        }
+                        if (c.indexOf(name) == 0) {
+                            return c.substring(name.length, c.length);
+                        }
+                    }
+                    return "";
+                }
+
+
+                $("button#save").click(function (e) {
+
+                    var userid = location.href.split("?")[1];
+                    var recentComment = {
+                        "placeName": "",
+                        "content": "",
+                        "rating": ""
+                    };
+                    recentComment.placeName = $("#name").val();
+                    recentComment.content = $("#comment").val();
+                    recentComment.rating = $("#points").val();
+                    var name = location.href.split("?")[1];
+                    var tempCookie = getCookie(name);
+                    var user = $.parseJSON(tempCookie);
+                    user.comments.push(recentComment);
+                    var test = user.comments.length;
+                    var date = new Date();
+                    date.setTime(date.getTime() + 3 * 24 * 60 * 60 * 1000);
+                    var expires = "; expires=" + date.toGMTString();
+                    var val = JSON.stringify(user);
+                    var aname = user.userid;
+                    var stringa = aname + "=" + val + expires + "; path=/";
+                    document.cookie = stringa;
+                    var user1 = $.parseJSON(getCookie(name));
+                    alert("Commenton thepage has been submitted");
+					e.preventDefault(); 
+                });
+                
+                $("#viewComments").click(function () {
+                    var id=location.href.split("?")[1];
+                    var url = "viewcomments.html?"+id;
+                    location.href = url;
+
+                });
+
+            });
+        </script>
+</body>
+
+
+
+
+</html>

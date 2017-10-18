@@ -1,0 +1,203 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 8, 2016, 5:19:55 PM
+    Author     : Snigdha
+*/
+
+
+body {
+    font-family: 'Montserrat', sans-serif!important;
+    background-color:#FFF;
+}
+
+.navbar{
+    font-weight: bold;
+    border: 0;
+    letter-spacing: 2px;
+    font-size: 15px;
+
+}      
+h5{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+#navigation ul> li > a:hover,
+#navigation ul > li > a:focus{
+    background-color:#FFF;
+      border-bottom: 3px  solid #2450b4;
+}
+
+.navbar-nav li a {
+    color: #2450b4;
+}  
+
+#myCarousel, .carousel-inner ,.carousel-inner img{
+
+    height: 700px;
+    width: 100%;
+    margin: auto;
+
+}
+
+.container {
+    padding: 20px 20px;
+    margin: auto;
+}
+.imagecontainer:hover .imagehover {
+    -webkit-transform:scale(1.4);
+    transform:scale(1.2);
+}
+
+.imagecontainer{
+    overflow: hidden;
+    width:350px;
+    height:250px;
+}
+
+.imagehover{
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.9s ease;
+}
+
+.paragraph{
+    padding:20px 0;
+
+}
+
+.btn.btn_primary{
+    background-color:#00a7a2;
+    color: #FFF;
+}
+
+
+.caption{
+    left: 0;
+    position: absolute;
+    top:250px;
+    bottom: 0px;
+    color: blue;
+    background: white;
+
+
+}
+.caption h5{
+    float: left;
+    margin-right: 20px;   
+}
+.myimages{
+    position: relative;  
+    display: block;
+
+}
+footer{
+    text-align: center;
+    background-color:#2450b4;
+    color: #FFF;
+
+}
+.form-control{
+    width: 20%;
+    display: inline;
+}
+ul{
+    list-style-type: none;
+     padding: 0;
+}
+
+.angular-with-newlines {
+    white-space: pre-wrap;
+}
+blockquote{
+    font-size: 15px;
+    font-style: italic;
+  
+}
+.slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+
+h2{
+    color: red;
+   
+}
+h3{
+    color: #2450b4;
+}
+
+[title=imageGallary]
+{
+    width: 200px;
+    height: 150px;
+}
+#images li img{
+    margin: auto;
+    width:700px;
+    height: 450px;
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+    
+}
+
+#images li img:hover {
+border-radius:30%;
+box-shadow: 0 10px 6px -6px grey;
+
+}
+
+#borderbottom{
+    border-bottom: 4px  solid darkgreen
+}
+
+#Contact{
+   
+}
+
+
+@media (max-width: 700px) {
+    .angular-with-newlines {
+    white-space: pre-wrap;
+}
+  #logo{
+        width: 50%;
+        }
+ 
+  #navigation ul li a{
+    color: #FFF ;
+    background-color: #2450b4;
+ 
+  }
+  .nav-toggle{
+        background-color: #2450b4;
+        color: white;
+    }
+    #navigation ul> li > a:hover,
+#navigation ul > li > a:focus{
+    background-color:  #2450e4;
+      border-bottom: 3px  solid #FFF;
+}
+  .icon-bar{
+      background-color: #FFF;
+  }
+    .navbar-brand{
+        position: absolute;
+        margin-left: 0px;
+       padding-left: 0px;
+           
+    }
+    .form-control{
+    width: 100%;
+    
+   
+}
+
+   
+   }

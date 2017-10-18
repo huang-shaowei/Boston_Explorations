@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>User Profile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="stylingScript.js" type="text/javascript"></script>
+    <link href="mainpage.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        div#title {
+            padding-top: 50px;
+        }
+        
+        .btn:hover,
+        .btn:focus {
+            border: 1px solid #333;
+            background-color: #fff;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-static-top" role="navigation">
+        <div class="container-fluid ">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand">
+                    <img style="position: relative" src="logo.jpg" alt="Logo" id="logo" /></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="tourguide.html">Home <span class="sr-only">(current)</span></a> </li>
+                    <li><a id="comment">Comments</a></li>
+                    <li><a  href="ViewBoston.html">Places</a></li>
+                    <li><a  href="tourguide.html#Contact">Contact</a></li>
+
+                    
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="title" class="container text-center">
+        <h3>User Profile</h3>
+        <p><em>Your User Profile is important for us, which we can use for imporoving the User Experience!</em></p>
+        <form>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="userid">User ID:</label>
+                <div class="col-sm-10">
+                    <input type="userid" class="form-control" name="userid" id="userid">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="fname">First Name:</label>
+                <div class="col-sm-10">
+                    <input type="fname" class="form-control" name="fname" id="fname">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="lname">Last Name:</label>
+                <div class="col-sm-10">
+                    <input type="lname" class="form-control" id="lname" name="lname">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="phoneNum">E-mail Address:</label>
+                <div class="col-sm-10">
+                    <input type="E-mail" class="form-control" id="E-mail" name="E-mail">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="Age">Age:</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="age" name="age">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="address">Country</label>
+                <div class="col-sm-10">
+                    <input type="country" class="form-control" id="country" name="country">
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> Remember me</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button class="btn btn-primary">Update</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <footer>
+        <a href="#myPage" data-toggle="tooltip" title="TO TOP">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <br>
+        <br>
+        <p>Copyrights @Boston Explorations</p>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            checkCookie();
+
+            function checkCookie() {
+                var name = location.href.split("?")[1];
+                var tempCookie = getCookie(name);
+                var user = $.parseJSON(tempCookie);
+                $("#userid").val(user.userid);
+                $("#fname").val(user.firstName);
+                $("#lname").val(user.lastName);
+                $("#E-mail").val(user.email);
+                $("#age").val(user.age);
+                $("#country").val(user.country);
+            }
+
+            function getCookie(cname) {
+                var name = cname + "=";
+                var ca = document.cookie.split(';');
+                for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) == ' ') {
+                        c = c.substring(1);
+                    }
+                    if (c.indexOf(name) == 0) {
+                        return c.substring(name.length, c.length);
+                    }
+                }
+                return "";
+            }
+
+
+            $("#comment").click(function () {
+                var id = $("#userid").val();
+                var url = "comment.html?"+id;
+                location.href = url;
+            });
+
+        });
+    </script>
+</body>
+
+</html>
